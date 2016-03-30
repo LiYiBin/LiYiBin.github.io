@@ -1,0 +1,14 @@
+digraph g {
+  web1[label="web1", shape="record"];
+  web2[label="web2", shape="record"];
+  web3[label="web3", shape="record"];
+  web4[label="web4", shape="record"];
+  web5[label="web5", shape="record"];
+
+  web1 -> web2;
+  web1 -> web3;
+  web3 -> web2;
+  web4 -> web2;
+  web4 -> web5;
+  web5 -> web4;
+}

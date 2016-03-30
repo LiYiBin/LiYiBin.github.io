@@ -1,0 +1,1 @@
+digraph g{seoWorks[label="{ Keywords | On Page SEO | Content Marketing | Off Page SEO }",shape="record"];Goals ->seoWorks ->Metrics ->Learn;Learn ->Goals;Goals ->"Google Adwords";"Google Adwords" ->Goals;Metrics ->"Google Analysis";"Google Analysis" ->Metrics}

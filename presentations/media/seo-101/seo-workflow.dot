@@ -1,0 +1,13 @@
+digraph g {
+  keywordsTool[label="{ AdWords Keyword Tool | Google Trends | ...}", shape="record"];
+  metricsTool[label="{ Google Analysis | Open Site Explorer | ...}", shape="record"];
+
+  Goals -> SEO -> Metrics -> Learn -> Goals;
+
+  Goals -> keywordsTool;
+  keywordsTool -> Goals;
+
+
+  Metrics -> metricsTool;
+  metricsTool -> Metrics;
+}
